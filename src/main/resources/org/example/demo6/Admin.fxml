@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ButtonBar?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="600.0" prefWidth="335.0" style="-fx-background-color: #fce9db;" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.demo6.Admincontroller">
+    <children>
+        <Text fill="#82493a" layoutX="50.0" layoutY="116.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Admin Login">
+            <font>
+                <Font name="Elephant" size="36.0" />
+            </font>
+        </Text>
+        <TextField layoutX="68.0" layoutY="358.0" prefHeight="30.0" prefWidth="200.0" promptText="Enter username" style="-fx-border-radius: 10;" />
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="89.0" layoutY="161.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../burger-6462413_1280.png" />
+         </image>
+         <effect>
+            <DropShadow />
+         </effect>
+      </ImageView>
+      <ButtonBar layoutX="50.0" layoutY="413.0" prefHeight="40.0" prefWidth="236.0" style="-fx-background-radius: 30; -fx-background-color: #c99789;">
+         <effect>
+            <DropShadow />
+         </effect>
+         <buttons>
+            <Button alignment="BOTTOM_CENTER" contentDisplay="BOTTOM" mnemonicParsing="false" onAction="#switchtoadmin_menu" prefHeight="43.0" prefWidth="259.0" style="-fx-border-radius: 50; -fx-background-color: #c99789; -fx-background-radius: 30;" text="Login" textAlignment="JUSTIFY" textFill="#7d390e" textOverrun="CENTER_ELLIPSIS">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Button>
+         </buttons>
+      </ButtonBar>
+      <ButtonBar layoutX="95.0" layoutY="485.0" prefHeight="30.0" prefWidth="146.0" style="-fx-background-radius: 30; -fx-background-color: #c99789;">
+         <buttons>
+            <Button alignment="BOTTOM_CENTER" contentDisplay="BOTTOM" mnemonicParsing="false" onAction="#switchto_login" prefHeight="16.0" prefWidth="261.0" style="-fx-border-radius: 50; -fx-background-color: #c99789; -fx-background-radius: 30;" text="back" textFill="#7d390e" textOverrun="CENTER_ELLIPSIS">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Button>
+         </buttons>
+         <effect>
+            <DropShadow />
+         </effect>
+      </ButtonBar>
+    </children>
+</AnchorPane>

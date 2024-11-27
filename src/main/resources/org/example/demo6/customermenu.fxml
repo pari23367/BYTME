@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ButtonBar?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="600.0" prefWidth="335.0" style="-fx-background-color: #fce9db;" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1">
+    <children>
+        <ButtonBar layoutX="95.0" layoutY="485.0" prefHeight="30.0" prefWidth="146.0" style="-fx-background-radius: 30; -fx-background-color: #c99789;">
+            <buttons>
+                <Button alignment="BOTTOM_CENTER" contentDisplay="BOTTOM" mnemonicParsing="false" prefHeight="16.0" prefWidth="261.0" style="-fx-border-radius: 50; -fx-background-color: #c99789; -fx-background-radius: 30;" text="back" textFill="#7d390e" textOverrun="CENTER_ELLIPSIS">
+                    <font>
+                        <Font name="System Bold" size="20.0" />
+                    </font>
+                </Button>
+            </buttons>
+            <effect>
+                <DropShadow />
+            </effect>
+        </ButtonBar>
+        <HBox layoutX="17.0" layoutY="194.0" prefHeight="100.0" prefWidth="301.0">
+            <children>
+                <Pane prefHeight="100.0" prefWidth="104.0">
+                    <opaqueInsets>
+                        <Insets />
+                    </opaqueInsets>
+                    <children>
+                        <ImageView fitHeight="73.0" fitWidth="73.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@../../../men.png" />
+                            </image>
+                        </ImageView>
+                    </children>
+                </Pane>
+                <Pane prefHeight="100.0" prefWidth="104.0">
+                    <opaqueInsets>
+                        <Insets />
+                    </opaqueInsets>
+                    <children>
+                        <ImageView fitHeight="81.0" fitWidth="73.0" layoutX="14.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@../../../cart.png" />
+                            </image>
+                        </ImageView>
+                    </children>
+                </Pane>
+                <Pane prefHeight="100.0" prefWidth="104.0">
+                    <opaqueInsets>
+                        <Insets />
+                    </opaqueInsets>
+                    <children>
+                        <ImageView fitHeight="73.0" fitWidth="73.0" layoutX="28.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@../../../checkout.png" />
+                            </image>
+                        </ImageView>
+                    </children>
+                </Pane>
+            </children>
+        </HBox>
+        <HBox layoutX="17.0" layoutY="325.0" prefHeight="100.0" prefWidth="301.0">
+            <children>
+                <Pane prefHeight="100.0" prefWidth="104.0">
+                    <opaqueInsets>
+                        <Insets />
+                    </opaqueInsets>
+                    <children>
+                        <ImageView fitHeight="81.0" fitWidth="81.0" layoutX="35.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@../../../track.png" />
+                            </image>
+                        </ImageView>
+                    </children>
+                </Pane>
+                <Pane prefHeight="100.0" prefWidth="77.0">
+                    <opaqueInsets>
+                        <Insets />
+                    </opaqueInsets>
+                </Pane>
+                <Pane prefHeight="100.0" prefWidth="104.0">
+                    <opaqueInsets>
+                        <Insets />
+                    </opaqueInsets>
+               <children>
+                        <ImageView fitHeight="81.0" fitWidth="87.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@../../../history.png" />
+                            </image>
+                        </ImageView>
+               </children>
+                </Pane>
+            </children>
+        </HBox>
+        <Text fill="#82493a" layoutX="27.0" layoutY="131.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Customer Menu">
+            <font>
+                <Font name="Elephant" size="36.0" />
+            </font>
+        </Text>
+    </children>
+</AnchorPane>

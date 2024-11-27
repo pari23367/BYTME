@@ -1,0 +1,4 @@
+burger|fastfood|70.0|true
+pizza|fastfood|250.0|true
+rajma|lunch|80.0|true
+chole chawal|dinner|120.0|false

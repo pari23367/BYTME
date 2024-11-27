@@ -1,0 +1,4 @@
+1|VIP|received|150.0
+2|Regular|processing|200.0
+3|VIP|shipped|300.0
+4|Regular|cancelled|100.0

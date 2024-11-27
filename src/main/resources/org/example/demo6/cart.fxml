@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane xmlns="http://javafx.com/javafx"  xmlns:fx="http://javafx.com/fxml" fx:controller="<?xml version="1.0 encoding="UTF-8"?>
+
+        <?import javafx.scene.control.Button?>
+        <?import javafx.scene.control.TableColumn?>
+        <?import javafx.scene.control.TableView?>
+        <?import javafx.scene.layout.AnchorPane?>
+        <?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="600.0" prefWidth="335.0" style="-fx-background-color: #fce9db;" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.demo6.CartController">
+
+<children>
+    <!-- Header -->
+    <Text layoutX="120.0" layoutY="40.0" text="Cart" style="-fx-font-family: 'Elephant'; -fx-font-size: 36px; -fx-fill: #82493a;" />
+
+    <!-- TableView -->
+    <TableView layoutX="20.0" layoutY="80.0" prefHeight="200.0" prefWidth="295.0" style="-fx-border-color: #c99789;">
+        <columns>
+            <TableColumn text="Name" prefWidth="100.0" />
+            <TableColumn text="Quantity" prefWidth="100.0" />
+            <TableColumn text="Total Price" prefWidth="95.0" />
+        </columns>
+    </TableView>
+
+    <!-- Checkout Button -->
+    <Button layoutX="60.0" layoutY="300.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="215.0"
+            style="-fx-background-color: #c99789; -fx-background-radius: 30; -fx-text-fill: #7d390e; -fx-font-family: 'Britannic Bold'; -fx-font-size: 14px;" text="Checkout" />
+
+    <!-- Back Button -->
+    <Button layoutX="20.0" layoutY="360.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="100.0"
+            style="-fx-background-color: #c99789; -fx-background-radius: 20; -fx-text-fill: #7d390e; -fx-font-family: 'Britannic Bold'; -fx-font-size: 13px;" text="Back" />
+</children>
+</AnchorPane>

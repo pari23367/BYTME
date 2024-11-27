@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Spinner?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="600.0" prefWidth="335.0" style="-fx-background-color: #fce9db;" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.demo6.MenuController">
+
+    <children>
+        <!-- Header Text -->
+        <Text fill="#82493a" layoutX="100.0" layoutY="58.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-family: 'Elephant'; -fx-font-size: 36;" text="Menu" textAlignment="CENTER" />
+
+        <!-- Table for Menu Items -->
+        <TableView layoutX="20.0" layoutY="80.0" prefHeight="200.0" prefWidth="291.0" style="-fx-border-color: #c99789;">
+            <columns>
+                <TableColumn prefWidth="66.66668701171875" text="Name" />
+                <TableColumn prefWidth="60.66668701171875" text="Price" />
+                <TableColumn prefWidth="73.99993896484375" text="Category" />
+                <TableColumn prefWidth="89.3333740234375" text="Availability" />
+            </columns>
+        </TableView>
+
+        <!-- Item Name TextField -->
+        <Text fill="#7d390e" layoutX="20.0" layoutY="300.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Item Name:">
+         <font>
+            <Font name="Britannic Bold" size="13.0" />
+         </font></Text>
+        <TextField layoutX="100.0" layoutY="285.0" prefWidth="215.0" />
+
+        <!-- Quantity Spinner -->
+        <Text fill="#7d390e" layoutX="20.0" layoutY="330.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Quantity:">
+         <font>
+            <Font name="Britannic Bold" size="13.0" />
+         </font></Text>
+        <Spinner layoutX="100.0" layoutY="315.0" prefWidth="70.0" />
+
+        <!-- Add to Cart Button -->
+        <Button layoutX="60.0" layoutY="461.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="215.0" style="-fx-background-color: #c99789; -fx-background-radius: 30; -fx-font-family: 'Britannic Bold'; -fx-font-size: 14;" text="Add to Cart" textFill="#7d390e">
+         <effect>
+            <DropShadow />
+         </effect></Button>
+
+        <!-- Back Button -->
+        <Button layoutX="122.0" layoutY="526.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="100.0" style="-fx-background-color: #c99789; -fx-background-radius: 20; -fx-font-family: 'Britannic Bold'; -fx-font-size: 13;" text="Back" textFill="#7d390e">
+         <effect>
+            <DropShadow />
+         </effect></Button>
+    </children>
+</AnchorPane>
