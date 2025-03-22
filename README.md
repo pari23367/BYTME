@@ -1,4 +1,4 @@
-Here's a structured README for your **BYTME** project, including images and descriptions of functionalities.  
+  
 
 ---
 
