@@ -4,7 +4,7 @@ Here's a structured README for your **BYTME** project, including images and desc
 
 # 🍔 BYTME - Restaurant Management System
 
-BYTME is a restaurant management system that allows administrators to manage food menus, orders, and customer data efficiently. It features a user-friendly **GUI** built with Java Swing and provides functionalities for both **Admin** and **Customers**.
+BYTME is a restaurant management system that allows administrators to manage food menus, orders, and customer data efficiently. It features a user-friendly **GUI** built with Java javafx and provides functionalities for both **Admin** and **Customers**.
 
 ## 📌 Features
 - **Admin Panel**  
@@ -66,7 +66,7 @@ Admins can edit the menu, change prices, and update item availability.
 
 ## 🏗️ Tech Stack
 - **Java** (Core Functionality)  
-- **Swing** (GUI Framework)  
+- **Javafx** (GUI Framework)  
  
 
 ---
