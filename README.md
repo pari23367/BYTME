@@ -67,7 +67,7 @@ Admins can edit the menu, change prices, and update item availability.
 ## 🏗️ Tech Stack
 - **Java** (Core Functionality)  
 - **Swing** (GUI Framework)  
-- **JDBC / MySQL** (Database)  
+ 
 
 ---
 
@@ -87,4 +87,3 @@ Admins can edit the menu, change prices, and update item availability.
 
 ---
 
-Feel free to modify this **README.md** file and replace the image links with the correct ones from your **GitHub repository**. 🚀
