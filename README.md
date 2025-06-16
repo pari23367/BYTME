@@ -2,9 +2,9 @@
 
 ---
 
-# 🍔 BYTeME - Restaurant Management System
+# 🍔 BYTEME - Restaurant Management System
 
-BYTeME is a restaurant management system that allows administrators to manage food menus, orders, and customer data efficiently. It features a user-friendly **GUI** built with Java javafx and provides functionalities for both **Admin** and **Customers**.
+BYTEME is a restaurant management system that allows administrators to manage food menus, orders, and customer data efficiently. It features a user-friendly **GUI** built with Java javafx and provides functionalities for both **Admin** and **Customers**.
 
 ## 📌 Features
 - **Admin Panel**  
